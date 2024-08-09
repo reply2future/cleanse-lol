@@ -27,12 +27,17 @@ I want to enjoy the competition of the game instead of BULL SH*T execution anima
 3. Run the command `powershell -ExecutionPolicy Bypass -File .\CreateTaskAndShortcut.ps1` in the `powershell` terminal.
 
 If you see the result like this, you could find the shortcut which named `CleanseLOL.lnk` on your desktop.
-
+![alt text](img/install.png)
 By the way, you could double click `CleanseLOL.lnk` to close `LOL` as well.
 
 ## Uninstall
 
+1. Use `Start` search for `Task Scheduler`, then open it.
+2. Find the Task named `CloseLOLAsAdmin` and right click to show the menu, then select `delete`, like below:
+![alt text](img/uninstall.png)
+3. Remove the desktop shortcut `CleanseLOL.lnk`
 
+All Done!
 
 ## Customize
 
@@ -40,6 +45,7 @@ By the way, you could double click `CleanseLOL.lnk` to close `LOL` as well.
 
 You could change the hotkey by modifing `CleanseLOL.lnk` property like below.
 
+![alt text](img/change-hotkey.png)
 
 ## Disclaimer
 
